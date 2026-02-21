@@ -70,10 +70,10 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
           className="mx-auto max-w-2xl text-center mb-16"
         >
-          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-glow-blue">About Hum</p>
-          <h2 className="mb-6 text-3xl font-bold sm:text-4xl">About Hum</h2>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-glow-blue">About Hanura AI</p>
+          <h2 className="mb-6 text-3xl font-bold sm:text-4xl">About Hanura AI</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Hum is a technology company building focused, high-impact AI products for Indian institutions and enterprises. 
+            Hanura AI is a technology company building focused, high-impact AI products for Indian institutions and enterprises. 
             We believe in building tools that are affordable, practical, and made for the ground realities of Bharat.
           </p>
         </motion.div>

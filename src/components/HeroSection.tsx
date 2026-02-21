@@ -50,7 +50,7 @@ const HeroSection = ({ onBookDemo }: HeroSectionProps) => {
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border px-4 py-1.5 text-xs font-medium text-muted-foreground">
             <span className="h-1.5 w-1.5 rounded-full bg-glow-blue animate-pulse-glow" />
-            Now launching KAVACH AI
+            Now launching hanura AI
           </div>
 
           <h1 className="mb-6 text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
@@ -60,7 +60,7 @@ const HeroSection = ({ onBookDemo }: HeroSectionProps) => {
           </h1>
 
           <p className="mx-auto mb-10 max-w-xl text-lg text-muted-foreground leading-relaxed">
-            Hum is a technology company building AI-powered products for institutions, educators, and enterprises.
+            Hanura AI is a technology company building AI-powered products for institutions, educators, and enterprises.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -68,7 +68,7 @@ const HeroSection = ({ onBookDemo }: HeroSectionProps) => {
               onClick={scrollToProducts}
               className="rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90 transition-all shadow-glow hover:shadow-[0_0_50px_-10px_hsl(var(--glow-blue)/0.4)]"
             >
-              Explore KAVACH AI
+              Explore hanura AI
             </button>
             <button
               onClick={scrollToContact}

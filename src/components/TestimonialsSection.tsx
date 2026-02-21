@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "KAVACH AI helped us reduce unauthorized browsing by 80% in our computer lab within the first week.",
+    quote: "hanura AI helped us reduce unauthorized browsing by 80% in our computer lab within the first week.",
     name: "Rajesh Kumar",
     role: "IT Head, Delhi Public School, Lucknow",
   },

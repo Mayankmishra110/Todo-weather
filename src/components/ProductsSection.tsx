@@ -9,7 +9,7 @@ interface ProductsSectionProps {
 const ProductsSection = ({ onKavachDetails, onNotify }: ProductsSectionProps) => {
   const products = [
     {
-      title: "KAVACH AI",
+      title: "hanura AI",
       badge: "Live",
       badgeClass: "bg-emerald-500/10 text-emerald-400",
       dotClass: "bg-emerald-400",

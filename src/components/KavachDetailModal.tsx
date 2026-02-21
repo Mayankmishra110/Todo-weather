@@ -18,7 +18,7 @@ const features = [
 
 const KavachDetailModal = ({ isOpen, onClose, onBookDemo }: KavachDetailModalProps) => {
   return (
-    <Modal isOpen={isOpen} onClose={onClose} title="KAVACH AI — Product Details" maxWidth="max-w-2xl">
+    <Modal isOpen={isOpen} onClose={onClose} title="hanura AI — Product Details" maxWidth="max-w-2xl">
       <div className="space-y-6">
         <div>
           <p className="text-sm text-glow-blue font-semibold mb-1">Computer Lab Discipline & Student Safety Platform</p>

@@ -27,7 +27,7 @@ const KavachSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-16 text-center"
         >
-          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-glow-blue">KAVACH AI</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-glow-blue">hanura AI</p>
           <h2 className="mb-4 text-3xl font-bold sm:text-4xl">
             Computer Lab Discipline &<br className="hidden sm:block" /> Student Safety Platform
           </h2>
