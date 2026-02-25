@@ -14,7 +14,8 @@ const Footer = ({ onPrivacy, onTerms }: FooterProps) => {
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <div>
             <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="text-xl font-bold tracking-tight text-foreground">
-              hanura ai<span className="text-glow-blue">.</span>
+              Kavach{" "}
+              <span className="text-glow-blue">AI</span>
             </button>
             <p className="mt-1 text-sm text-muted-foreground">Intelligent Systems for Bharat</p>
           </div>
@@ -39,7 +40,7 @@ const Footer = ({ onPrivacy, onTerms }: FooterProps) => {
         </div>
 
         <div className="mt-8 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-          © 2025 Hanura AI Technologies Pvt. Ltd. All rights reserved.
+          © 2025 Kavach Technologies Pvt. Ltd. All rights reserved.
         </div>
       </div>
     </footer>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ProductsSection from "@/components/ProductsSection";
+import FeaturesSection from "@/components/FeaturesSection";
 import KavachSection from "@/components/KavachSection";
 import PricingSection from "@/components/PricingSection";
 import WhyKavachSection from "@/components/WhyKavachSection";
@@ -34,6 +35,7 @@ const Index = () => {
       <Navbar onBookDemo={() => setDemoOpen(true)} />
       <HeroSection onBookDemo={() => setDemoOpen(true)} />
       <ProductsSection onKavachDetails={() => setKavachOpen(true)} onNotify={openNotify} />
+      <FeaturesSection />
       <KavachSection />
       <PricingSection onTrial={() => setTrialOpen(true)} onBookDemo={() => setDemoOpen(true)} onContactSales={() => setContactSalesOpen(true)} />
       <WhyKavachSection />

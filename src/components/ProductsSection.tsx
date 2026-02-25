@@ -9,7 +9,7 @@ interface ProductsSectionProps {
 const ProductsSection = ({ onKavachDetails, onNotify }: ProductsSectionProps) => {
   const products = [
     {
-      title: "hanura AI",
+      title: "Kavach AI",
       badge: "Live",
       badgeClass: "bg-emerald-500/10 text-emerald-400",
       dotClass: "bg-emerald-400",
@@ -20,25 +20,25 @@ const ProductsSection = ({ onKavachDetails, onNotify }: ProductsSectionProps) =>
       active: true,
     },
     {
-      title: "HumShield",
+      title: "Kavach Shield",
       badge: "Coming Soon",
       badgeClass: "bg-muted text-muted-foreground",
       dotClass: "bg-muted-foreground",
       desc: "Enterprise-grade cybersecurity compliance platform. Launching 2025.",
       price: null,
       cta: "Notify Me",
-      onClick: () => onNotify("HumShield"),
+      onClick: () => onNotify("Kavach Shield"),
       active: false,
     },
     {
-      title: "HumInsights",
+      title: "Kavach Insights",
       badge: "In Development",
       badgeClass: "bg-muted text-muted-foreground",
       dotClass: "bg-muted-foreground",
       desc: "AI analytics dashboard for institutional performance tracking.",
       price: null,
       cta: "Notify Me",
-      onClick: () => onNotify("HumInsights"),
+      onClick: () => onNotify("Kavach Insights"),
       active: false,
     },
   ];

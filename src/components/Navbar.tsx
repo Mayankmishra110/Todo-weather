@@ -36,7 +36,8 @@ const Navbar = ({ onBookDemo }: NavbarProps) => {
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="text-xl font-bold tracking-tight text-foreground">
-          hanura ai<span className="text-glow-blue">.</span>
+          Kavach{" "}
+          <span className="text-glow-blue">AI</span>
         </button>
 
         <div className="hidden md:flex items-center gap-8">

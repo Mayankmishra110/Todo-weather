@@ -36,7 +36,7 @@ const WhyKavachSection = () => {
         >
           <div className="grid grid-cols-2 border-b border-border bg-card">
             <div className="p-4 text-center text-sm font-semibold text-muted-foreground">Generic Tools</div>
-            <div className="border-l border-border p-4 text-center text-sm font-semibold text-glow-blue">hanura AI</div>
+            <div className="border-l border-border p-4 text-center text-sm font-semibold text-glow-blue">Kavach AI</div>
           </div>
           {rows.map((r, i) => (
             <div key={i} className="grid grid-cols-2 border-b border-border last:border-b-0">

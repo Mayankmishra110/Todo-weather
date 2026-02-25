@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -79,6 +80,11 @@
     background-image: linear-gradient(135deg, hsl(var(--glow-blue)) 0%, hsl(var(--glow-gold)) 100%);
   }
 
+  .text-premium-muted {
+    color: hsl(215 25% 85%);
+    text-shadow: 0 0 40px hsl(var(--glow-blue) / 0.08);
+  }
+
   .bg-hero-gradient {
     background: var(--gradient-hero);
   }
@@ -107,5 +113,52 @@
     background: hsl(var(--navy-light) / 0.6);
     backdrop-filter: blur(20px);
     border: 1px solid hsl(var(--glow-blue) / 0.1);
+  }
+
+  .font-features {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  .hero-content-glow {
+    background: radial-gradient(
+      ellipse 80% 60% at 50% 0%,
+      hsl(var(--glow-blue) / 0.08) 0%,
+      hsl(var(--glow-blue) / 0.02) 40%,
+      transparent 70%
+    );
+  }
+
+  .hero-pattern {
+    background-image: radial-gradient(
+        circle at 1px 1px,
+        hsl(var(--glow-blue) / 0.12) 1px,
+        transparent 0
+      );
+    background-size: 32px 32px;
+  }
+
+  .hero-panel-mesh {
+    background:
+      radial-gradient(ellipse 80% 50% at 50% 0%, hsl(var(--glow-blue) / 0.1) 0%, transparent 55%),
+      radial-gradient(ellipse 120% 80% at 0% 50%, hsl(var(--glow-blue) / 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse 120% 80% at 100% 50%, hsl(var(--glow-gold) / 0.05) 0%, transparent 50%),
+      linear-gradient(180deg, hsl(var(--navy-light) / 0.4) 0%, transparent 60%);
+  }
+
+  .hero-grid-lines {
+    background-image:
+      linear-gradient(hsl(var(--glow-blue) / 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--glow-blue) / 0.06) 1px, transparent 1px);
+    background-size: 80px 80px;
+  }
+
+  .hero-diagonal {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 40px,
+      hsl(var(--glow-blue) / 0.03) 40px,
+      hsl(var(--glow-blue) / 0.03) 41px
+    );
   }
 }

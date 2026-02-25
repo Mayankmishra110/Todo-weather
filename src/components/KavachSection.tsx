@@ -1,14 +1,5 @@
 import { motion } from "framer-motion";
-import { Shield, BarChart3, Bell, LayoutDashboard, Users, Server, Download, Settings, Activity } from "lucide-react";
-
-const features = [
-  { icon: Shield, emoji: "🛡️", title: "App & Website Tracking", desc: "Monitor every application and website accessed on lab computers in real time." },
-  { icon: BarChart3, emoji: "📊", title: "AI Usage Insights", desc: "Get weekly AI-generated reports on student focus patterns, distractions, and productivity." },
-  { icon: Bell, emoji: "🔔", title: "Smart Alerts", desc: "Instant alerts for policy violations — blocked app attempts, restricted site visits, anomalies." },
-  { icon: LayoutDashboard, emoji: "👨‍💼", title: "Role-Based Dashboard", desc: "Separate views for IT Head, Principal, and Coaching Owner with permission controls." },
-  { icon: Users, emoji: "👪", title: "Parent Portal", desc: "Optional parent access to view child's lab usage summary." },
-  { icon: Server, emoji: "🖥️", title: "Local Server Architecture", desc: "Data stays within your campus. No cloud dependency. Better privacy, lower cost." },
-];
+import { Download, Settings, Activity } from "lucide-react";
 
 const steps = [
   { icon: Download, step: "01", title: "Install Agent", desc: "Deploy our lightweight Windows desktop agent on lab computers in minutes." },
@@ -20,42 +11,6 @@ const KavachSection = () => {
   return (
     <section id="kavach" className="py-24 bg-section-alt">
       <div className="container mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mb-16 text-center"
-        >
-          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-glow-blue">hanura AI</p>
-          <h2 className="mb-4 text-3xl font-bold sm:text-4xl">
-            Computer Lab Discipline &<br className="hidden sm:block" /> Student Safety Platform
-          </h2>
-          <p className="mx-auto max-w-lg text-muted-foreground">
-            Built for Indian schools and coaching institutes. Not for remote employees.
-          </p>
-        </motion.div>
-
-        {/* Features grid */}
-        <div className="mx-auto mb-20 grid max-w-5xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {features.map((f, i) => (
-            <motion.div
-              key={f.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.08 }}
-              className="rounded-xl border border-border bg-card p-5 shadow-card"
-            >
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-lg">
-                {f.emoji}
-              </div>
-              <h3 className="mb-1.5 text-base font-semibold">{f.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{f.desc}</p>
-            </motion.div>
-          ))}
-        </div>
-
         {/* How it works */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
